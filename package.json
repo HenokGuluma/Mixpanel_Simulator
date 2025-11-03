@@ -1,14 +1,11 @@
 {
   "name": "mixpanel-growth-simulator",
   "version": "1.0.0",
-  "description": "Realistic user growth simulator for Mixpanel with Ethiopian user base",
+  "description": "Realistic user growth simulator for Mixpanel",
   "main": "simulator.js",
   "scripts": {
     "start": "node simulator.js --continuous",
-    "historical": "node simulator.js --historical",
-    "debug": "node simulator.js --debug",
-    "delete": "node delete.js --debug",
-    "test": "node working_simulator.js"
+    "historical": "node simulator.js --historical"
   },
   "dependencies": {
     "axios": "^1.6.0",
