@@ -4,7 +4,7 @@
   "description": "Historical + Continuous growth simulator for Mixpanel",
   "main": "simulator.js",
   "scripts": {
-    "start": "node simulator.js",
+    "start": "node health.js & node simulator.js",
     "historical": "node simulator.js --historical-only",
     "continuous": "node simulator.js --continuous-only",
     "dev": "node simulator.js --debug"
